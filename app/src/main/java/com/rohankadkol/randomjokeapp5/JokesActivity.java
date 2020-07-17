@@ -23,7 +23,7 @@ public class JokesActivity extends AppCompatActivity {
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
-        setTitle("Jokes");
+        setTitle(getString(R.string.jokes_activity_title));
 
         setJoke();
     }

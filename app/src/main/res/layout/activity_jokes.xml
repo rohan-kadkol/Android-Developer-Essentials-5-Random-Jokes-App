@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
         android:onClick="onBtnNextJokeClicked"
-        android:text="Next Joke"
+        android:text="@string/jokes_activity_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
