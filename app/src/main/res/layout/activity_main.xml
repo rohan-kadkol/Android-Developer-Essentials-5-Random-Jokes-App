@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary_light"
     tools:context=".MainActivity">
+    <!--TODO: Change the background color to primary-light-->
 
     <ImageView
         android:id="@+id/imageView"
@@ -18,39 +18,42 @@
         app:layout_constraintVertical_bias="0.2"
         app:srcCompat="@drawable/laugh_cry_emoji" />
 
+    <!--TODO: Make a string resource for the text-->
+    <!--TODO: Change the style property to your preferred Material text style-->
     <TextView
         android:id="@+id/textView"
-        style="@style/TextAppearance.MaterialComponents.Overline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/main_activity_overline"
-        android:textColor="@color/secondary_text"
+        android:text="Laughter is the best medicine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.16000003" />
 
+    <!--TODO: Make a string resource for the text-->
+    <!--TODO: Change the style property to your preferred Material text style-->
+    <!--TODO: Constrain the left and right of this TextView to the left and right of the above TextView (anchor view)-->
     <TextView
         android:id="@+id/textView2"
-        style="@style/TextAppearance.MaterialComponents.Headline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/main_activity_title"
-        android:textColor="@color/primary_text"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView"
+        android:text="Hear some jokes?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <!--TODO: Make a string resource for the text-->
+    <!--TODO: Constrain the left and right of this TextView to the left and right of the top-most TextView (anchor view)-->
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
         android:onClick="onBtnSeeJokesClicked"
-        android:text="@string/main_activity_button"
+        android:text="See jokes"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

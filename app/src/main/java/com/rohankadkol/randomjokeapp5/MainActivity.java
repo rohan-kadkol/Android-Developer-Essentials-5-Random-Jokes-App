@@ -15,11 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        JokeHelper.initializeJokes(this);
+        // TODO: Initialize jokes
     }
 
     public void onBtnSeeJokesClicked(View view) {
-        Intent intent = new Intent(this, JokesActivity.class);
-        startActivity(intent);
+        // TODO: Use intents to go to the JokesActivity
     }
 }

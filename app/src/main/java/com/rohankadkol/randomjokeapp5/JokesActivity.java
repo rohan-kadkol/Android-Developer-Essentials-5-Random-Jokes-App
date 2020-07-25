@@ -21,9 +21,7 @@ public class JokesActivity extends AppCompatActivity {
 
         mTvJoke = findViewById(R.id.tv_joke);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        setTitle(getString(R.string.jokes_activity_title));
+        // TODO: Add a back button and set the title of the ActionBar
 
         setJoke();
     }
@@ -37,12 +35,5 @@ public class JokesActivity extends AppCompatActivity {
         mTvJoke.setText(joke);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            finish();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+    // TODO: Override onOptionsItemsSelected() to go back when the back button is clicked
 }
