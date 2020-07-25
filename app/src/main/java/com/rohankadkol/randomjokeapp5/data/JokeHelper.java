@@ -10,7 +10,8 @@ import java.util.List;
 public class JokeHelper {
     private static int currentJoke = 0;
 
-    // TODO: When using strings.xml, set jokes to null. (Calling initializeJokes() will populate jokes from strings.xml)
+    // TODO (15): Add all the below jokes to a string-array in strings.xml
+    // TODO (16): Set jokes to null
     private static String[] jokes = {
             "Why you shouldn\'t write with a broken pencil?\n\n\n\n… because it\'s pointless",
             "What happens when a frog\'s car breaks?\n\n\n\n… it gets toad",
@@ -31,7 +32,8 @@ public class JokeHelper {
             return;
         }
 
-        // TODO: Uncomment this line when using strings.xml
+        // TODO (17): Uncomment this line when using strings.xml. This line populates the jokes
+        //  array using the string-array we created in strings.xml during step #13
 //        jokes = context.getResources().getStringArray(R.array.jokes);
     }
 

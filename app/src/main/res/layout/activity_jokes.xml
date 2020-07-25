@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".JokesActivity">
-    <!--TODO: Change the background color to primary-light-->
+    <!--TODO (12): Change the background color to primary-light-->
 
-    <!--TODO: Make a string resource for the text-->
+    <!--TODO (13): Make a string resource for the text-->
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"

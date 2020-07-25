@@ -21,7 +21,7 @@ public class JokesActivity extends AppCompatActivity {
 
         mTvJoke = findViewById(R.id.tv_joke);
 
-        // TODO: Add a back button and set the title of the ActionBar
+        // TODO (26): Add a back button and set the title of the ActionBar
 
         setJoke();
     }
@@ -35,5 +35,5 @@ public class JokesActivity extends AppCompatActivity {
         mTvJoke.setText(joke);
     }
 
-    // TODO: Override onOptionsItemsSelected() to go back when the back button is clicked
+    // TODO (27): Override onOptionsItemsSelected() to go back when the back button is clicked
 }

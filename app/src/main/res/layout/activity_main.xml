@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <!--TODO: Change the background color to primary-light-->
+    <!--TODO (8): Change the background color to primary-light-->
 
     <ImageView
         android:id="@+id/imageView"
@@ -18,8 +18,8 @@
         app:layout_constraintVertical_bias="0.2"
         app:srcCompat="@drawable/laugh_cry_emoji" />
 
-    <!--TODO: Make a string resource for the text-->
-    <!--TODO: Change the style property to your preferred Material text style-->
+    <!--TODO (9): Make a string resource for the text-->
+    <!--TODO (4): Change the style property to your preferred Material text style-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -32,9 +32,9 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.16000003" />
 
-    <!--TODO: Make a string resource for the text-->
-    <!--TODO: Change the style property to your preferred Material text style-->
-    <!--TODO: Constrain the left and right of this TextView to the left and right of the above TextView (anchor view)-->
+    <!--TODO (10): Make a string resource for the text-->
+    <!--TODO (5): Change the style property to your preferred Material text style-->
+    <!--TODO (1): Constrain the left and right of this TextView to the left and right of the above TextView (anchor view)-->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -44,8 +44,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <!--TODO: Make a string resource for the text-->
-    <!--TODO: Constrain the left and right of this TextView to the left and right of the top-most TextView (anchor view)-->
+    <!--TODO (11): Make a string resource for the text-->
+    <!--TODO (2): Constrain the left and right of this TextView to the left and right of the top-most TextView (anchor view)-->
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
